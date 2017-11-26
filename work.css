@@ -1,0 +1,57 @@
+
+#first{
+    position: relative;
+    top:20px;
+}
+
+#first h1{
+
+    font-family: Bangers;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color:black;
+}
+
+#first p{
+    font-size: 18px;
+}
+#second{
+    position: relative;
+}
+
+#second p{
+
+
+}
+#third{
+    position: relative;
+    margin-bottom: 50px;
+}
+#fourth{
+    position: relative;
+    margin-bottom: 50px;
+}
+#fifth{
+    position: relative;
+    margin-bottom: 50px;
+}
+#sixth{
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+#sixth a{
+    color: black;
+    text-decoration:none;
+}
+#sixth a:hover{
+    color:olive;
+}
+#sixth p{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+#direct li{
+ display: inline;
+ padding: 10px;
+}

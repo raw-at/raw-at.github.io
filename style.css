@@ -1,0 +1,102 @@
+html,body{
+
+	width: auto;
+	height: 100%;
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+
+}
+
+body{
+
+	-webkit-font-smoothing:antialiased;
+	text-rendering: optimizeLegibility;
+	color: #6c6f73;
+
+
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+h1{
+	font-family: 'Sansita', sans-serif;
+	letter-spacing: 2px;
+}
+img{
+
+	max-width: 100%
+}
+
+#stage{
+
+	background:url('img/index.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	overflow-x: hidden; 
+}
+#stage-caption{
+
+	font-size: 1.4rem;
+	font-weight: 200;
+	max-width: 60rem;
+	margin:auto;
+	text-align: center;
+	position: relative;
+	top: 170px;
+}
+
+#stage-caption h1{
+
+	color:black;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+#stage-caption h2 {
+
+	text-align: center;
+	position: relative;
+	left: -13px;
+	color:rgb(10,180,216);
+}
+
+#stage-caption a {
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+
+#links{
+
+	position: relative;
+	left: -20px;
+}
+
+#links li{
+	display: inline;
+	padding: 12px;
+	
+	
+}
+
+#detail-links{
+	letter-spacing: 2px;
+	font-size: 20px;
+	position: relative;
+	left: -20px;
+	
+}
+#detail-links li{
+	padding: 10px;
+	display: inline;
+
+}

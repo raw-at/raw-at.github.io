@@ -1,0 +1,22 @@
+body,html{
+
+    overflow-x: hidden;
+}
+
+#profile{
+    margin-top:60px;
+}
+
+#program{
+    color:black;font-size:17px;font-weight:bold;
+}
+
+#link li{
+    display: inline;
+    padding:10px;
+}
+#link i:hover{
+
+    color:black;
+
+}
